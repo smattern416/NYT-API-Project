@@ -27,3 +27,41 @@ body, html {
     border: solid black 4px;
 
 }
+
+/* style for the form  */
+form {
+    border: ridge black 4px;
+    padding: 10px;
+    font-size: 1.8vh;
+}
+
+#form-header {
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+}
+
+/* style for the form buttons */
+.search-button {
+    border: dotted 2px black;
+    font-family: 'New Rocker', cursive;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.clear-button {
+    border: dotted 2px black;
+    font-family: 'New Rocker', cursive;
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* style for the results div */
+
+#results-header {
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+}
+#results {
+    border: ridge black 4px;
+    padding: 10px;
+}
