@@ -10,7 +10,8 @@ $(document).ready() {
             url: queryURL4,
             method: "GET",
           }).then(function(response) {
-            
+            var article = $("<div>").append(response);
+            $("#top-articles").append(article);
           });
     });
 
