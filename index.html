@@ -60,10 +60,44 @@
           <!-- form column -->
           <div class="col col-md-6 col-xs-12">
             <!-- TODO: form that takes in user search parameters -->
+            <h2 id="form-header">
+              Search Parameters
+            </h2>
+
             <form>
+              <!-- form area that will take the search term -->
               <div class="form-group">
+      
+                <label for="search-term-display">Search Term:</label>
+                <input type="text" class="form-control" id="search-term">
                 
               </div>
+              <!-- form area that will take the number of records to receive -->
+              <div class="form-group">
+                  <label for="records-to-retrieve-display">Number of Records to Retrieve</label>
+                  <select class="form-control" id="records-retrieved">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                  </select>
+              </div>
+
+              <!-- form area that will set the start year -->
+              <div class="form-group">
+                  <label for="start-year-display">Start Year (Optional):</label>
+                  <input type="text" class="form-control" id="start-year">
+              </div>
+
+              <div class="form-group">
+                  <label for="start-year-display">End Year (Optional):</label>
+                  <input type="text" class="form-control" id="end-year">
+              </div>
+
+              <button type="search" class="btn search-button">Search</button>
+              <button type="clear" class="btn clear-button">Clear Results</button>
+
             </form>
           </div>
 
