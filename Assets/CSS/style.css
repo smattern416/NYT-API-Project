@@ -1,0 +1,29 @@
+
+/* Set background image */
+body, html {
+    height: 100%;
+    font-family: 'PT Serif', serif;
+    background-color: black
+}
+
+.bg {
+    /* sets background image */
+    background-image: url(Images/background.jpg);
+
+    /* centers it on the page */
+    background-position: center;
+
+    /* makes it a size that will allow it to cover the entirety of the page */
+    background-size: cover;
+
+    /* ensures that it doesn't repeat across its holder */
+    background-repeat: no-repeat;
+}
+
+/* style for the big header */
+#nyt-header{
+    font-size: 8vh;
+    font-family: 'New Rocker', cursive;
+    border: solid black 4px;
+
+}
