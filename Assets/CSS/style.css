@@ -8,7 +8,7 @@ body, html {
 
 .bg {
     /* sets background image */
-    background-image: url(Images/background.jpg);
+    background-image: url(../images/background.jpg);
 
     /* centers it on the page */
     background-position: center;
